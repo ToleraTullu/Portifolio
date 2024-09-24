@@ -1,0 +1,11 @@
+.offcanvas-body{
+   display: flex;
+   align-items: center;
+}
+.list-group{
+    width: 100%;
+
+}
+.list-group-item-action{
+    margin: 10px 0;
+}

@@ -1,0 +1,41 @@
+.contanier{
+    width: 100vw;
+    height: 100vh;
+}
+.backImg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 80%;
+    z-index: -1;
+}
+.mousefollow {
+    background-color: rgb(135, 74, 31);
+    position:absolute;
+    z-index: -2;
+    transition: all 5s ease-in linear;
+}
+.banner {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    overflow: hidden;
+}
+
+.motto {
+    color:whitesmoke;
+    font-size: 60px;
+    font-family:cursive;
+    margin: 0 15vw;
+    padding: 20px 0 0 0;
+    text-align: center;
+    width:auto;
+}
+.motto span{
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+
